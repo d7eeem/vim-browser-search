@@ -15,22 +15,10 @@ use 'd7eeem/vim-browser-search'
 
 This plugin doesn't supply any default mappings. Here are some recommended key mappings
 
-```vim
-nmap <silent> <Leader>s <Plug>SearchNormal
-vmap <silent> <Leader>s <Plug>SearchVisual
+```lua
+vim.api.nvim_set_keymap("v", "<leader>s", ":'<,'>BrowserSearch<CR>", {})
+vim.api.nvim_set_keymap("n", "<leader>s", ":BrowserSearch<CR>", {})
 ```
-
-## Use cases
-
-- Select text and type `<Leader>s` to do a web search
-
-- Type `<Leader>saw` in to search web for a word
-
-- Type `<Leader>sa(` to search web for the text wrapped in the bracket
-
-- Type `<Leader>sas` to search web for a sentence
-
-- ...
 
 ## Variables
 
