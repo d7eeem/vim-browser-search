@@ -6,7 +6,7 @@ This plugin helps perform a quick web search for the text selected in (Neo)Vim
 
 ## Installation
 
-###Packer 
+### Packer 
 ```vim
 use 'd7eeem/vim-browser-search'
 ```
