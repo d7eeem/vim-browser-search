@@ -15,6 +15,7 @@ let g:browser_search_builtin_engines = {
   \ 'duckduckgo': 'https://duckduckgo.com/?q=%s',
   \ 'github':'https://github.com/search?q=%s',
   \ 'google':'https://google.com/search?q=%s',
+  \ 'brave':'https://search.brave.com/search?q=%s'
   \ 'stackoverflow':'https://stackoverflow.com/search?q=%s',
   \ 'translate': 'https://translate.google.com/?sl=auto&tl=it&text=%s',
   \ 'wikipedia': 'https://en.wikipedia.org/wiki/%s',
