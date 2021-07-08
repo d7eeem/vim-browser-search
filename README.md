@@ -36,7 +36,7 @@ vmap <silent> <Leader>s <Plug>SearchVisual
 
 #### **`g:browser_search_default_engine`**
 
-Defaut: `'google'`
+Defaut: `'duckduckgo'`
 
 #### **`g:browser_search_engines`**
 
@@ -44,11 +44,10 @@ Default:
 
 ```vim
   {
-  \ 'baidu':'https://www.baidu.com/s?ie=UTF-8&wd=%s',
-  \ 'bing': 'https://www.bing.com/search?q=%s',
   \ 'duckduckgo': 'https://duckduckgo.com/?q=%s',
   \ 'github':'https://github.com/search?q=%s',
   \ 'google':'https://google.com/search?q=%s',
+  \ 'brave':'https://search.brave.com/search?q=%s',
   \ 'stackoverflow':'https://stackoverflow.com/search?q=%s',
   \ 'translate': 'https://translate.google.com/?sl=auto&tl=it&text=%s',
   \ 'wikipedia': 'https://en.wikipedia.org/wiki/%s',
