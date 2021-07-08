@@ -10,10 +10,8 @@ if exists('g:did_load_browser_search')
 endif
 let g:did_load_browser_search = 1
 
-let g:browser_search_default_engine = get(g:, 'browser_search_default_engine', 'google')
+let g:browser_search_default_engine = get(g:, 'browser_search_default_engine', 'duckduckgo')
 let g:browser_search_builtin_engines = {
-  \ 'baidu':'https://www.baidu.com/s?ie=UTF-8&wd=%s',
-  \ 'bing': 'https://www.bing.com/search?q=%s',
   \ 'duckduckgo': 'https://duckduckgo.com/?q=%s',
   \ 'github':'https://github.com/search?q=%s',
   \ 'google':'https://google.com/search?q=%s',
